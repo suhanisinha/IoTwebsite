@@ -1,0 +1,243 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(IoT_fb.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.row
+{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 1520px;
+  padding: 10px;
+  background-color: black;
+}
+.menu
+{
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.menu li
+{
+    display: inline-block;
+}
+.menu li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 40px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5vw;
+}
+.menu li a:hover
+{
+    border-bottom: 3px solid white;   
+}
+.head
+{
+    margin-top: 250px;
+    margin-left: 20px;
+    float:left;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 3.5vw;   
+}
+.about h2
+{
+    color:black;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.about
+{
+    color: black;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 2vw;
+}
+.img1
+{
+    margin-top: 20px;
+}
+.LED
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(LED.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 2vw; 
+}
+.LED h2
+{
+    color:white;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.button1
+{
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.btn1
+{
+    border: 2px solid white;
+    padding: 30px;
+    text-decoration: none;
+    color: white;     
+}
+.button1 a:hover
+{
+    background-color: white;
+    color: black;
+}
+.SEG
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(7seg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 2vw; 
+}
+.SEG h2
+{
+    color:white;
+    padding: 30px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+.button2
+{
+    margin-top: 100px;
+    margin-left: 20px;  
+}
+.btn2
+{
+    border: 2px solid white;
+    padding: 30px;
+    text-decoration: none;
+    color: white;    
+}
+.button2 a:hover
+{
+    background-color: white;
+    color: black;
+}
+.p
+{
+    padding: 40px;
+    
+}
+.BUZZ
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(buzzer.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 2vw; 
+}
+.BUZZ h2
+{
+    color:white;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.button3
+{
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.btn3
+{
+    border: 2px solid white;
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+}
+.button3 a:hover
+{
+    background-color: white;
+    color: black;
+}
+.DCM
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(dcmotor.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 2vw; 
+}
+.DCM h2
+{
+    color:white;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.button4
+{
+    margin-top: 200px;
+    margin-left: 20px; 
+}
+.btn4
+{
+    border: 2px solid white;
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+}
+.button4 a:hover
+{
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .head {
+    width: 80%;
+    padding: 0;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .head {
+    width: 100%;
+  }
+}
